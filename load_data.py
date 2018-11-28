@@ -3,7 +3,8 @@ import os
 import pickle
 
 import numpy as np
-from scipy.misc import imread
+from imageio import imread
+
 
 """Script to preprocess the omniglot dataset and pickle it into an array that's easy
     to index my character type"""
