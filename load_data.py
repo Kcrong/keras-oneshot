@@ -1,10 +1,9 @@
-import sys
+import argparse
+import os
+import pickle
+
 import numpy as np
 from scipy.misc import imread
-import pickle
-import os
-import matplotlib.pyplot as plt
-import argparse
 
 """Script to preprocess the omniglot dataset and pickle it into an array that's easy
     to index my character type"""
